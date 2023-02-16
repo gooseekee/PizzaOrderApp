@@ -1,0 +1,17 @@
+.pizzas {
+    max-width: 80rem;
+    margin: 3rem auto;
+    animation: pizzas-appear 1s ease-out forwards;
+  }
+  
+  @keyframes pizzas-appear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

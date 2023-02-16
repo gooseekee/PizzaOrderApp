@@ -1,0 +1,46 @@
+  .grid-item {
+    display: grid;
+    position: relative;
+    background-color: #f7f7f7;
+    text-align: center;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .grid-item h3 {
+    margin: 0 0 0.25rem 0;
+  }
+
+  .img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+  }
+
+  .details {
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .description {
+    font-style: italic;
+  }
+  
+  .price {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: #ad5502;
+    font-size: 1.25rem;
+  }
+
+  .grid-item:hover {
+    width: 102%;
+    height: 102%;
+  }
+
+  .item-form {
+    padding: 10px;
+  }
